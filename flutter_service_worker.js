@@ -1,7 +1,7 @@
 'use strict';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  ".git/COMMIT_EDITMSG": "77d1f0b46b196c5a930777365a2e4cb7",
+  ".git/COMMIT_EDITMSG": "3c6463fa0760c90dddde9aca535c576f",
 ".git/config": "dfe1a96c979a44232a2b8d6c9e158ee9",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/HEAD": "4cf2d64e44205fe628ddd534e1151b58",
@@ -17,11 +17,11 @@ const RESOURCES = {
 ".git/hooks/pre-receive.sample": "2ad18ec82c20af7b5926ed9cea6aeedd",
 ".git/hooks/prepare-commit-msg.sample": "2b5c047bdb474555e1787db32b2d2fc5",
 ".git/hooks/update.sample": "517f14b9239689dff8bda3022ebd9004",
-".git/index": "66fc76c2ef3d5b9809b7becc515e2c8a",
+".git/index": "97d909c312a79301aaf3061d1251df23",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "350941dc814b4b6164a8750665f18371",
-".git/logs/refs/heads/master": "350941dc814b4b6164a8750665f18371",
-".git/logs/refs/remotes/origin/master": "40cfee332353adc516f7ddb37dd3ea01",
+".git/logs/HEAD": "781c7b0493806fa2aabcdf452771ca79",
+".git/logs/refs/heads/master": "781c7b0493806fa2aabcdf452771ca79",
+".git/logs/refs/remotes/origin/master": "90c13cf3c546ca17e148dd57e507c267",
 ".git/objects/07/819d1bf788718b16982cdc8c9a4be971f98f79": "fc087e265ac0ead006a7024b343dddbf",
 ".git/objects/0d/f13cf375bb64b896b5cbb36a44651c6d065834": "ef9acc4f4cb3b9d9dd9eb25beaaa2073",
 ".git/objects/0f/816fb5068fb5d0dc1623718a94d7a34c5edfe4": "48392ce692d6328aef69a753fa305233",
@@ -39,6 +39,7 @@ const RESOURCES = {
 ".git/objects/36/e2e591e58457824d46d8604355eb91364e4d14": "f56a26f4513eb39c0b3404907fba9b96",
 ".git/objects/36/ed3cfbb5e339fdd05923ab02732410147f5819": "90c8238676b085aa776ef9bc3e3d5c04",
 ".git/objects/3c/8d2b7af8eb90c245544abea949b62cd2ce3992": "8e774f0a3025d3e0bdaa4f6a2bf80334",
+".git/objects/41/add13bea15bf9234e1ce4583efe8230f84870a": "d6103a5973d668851337868d126620a6",
 ".git/objects/46/67e0532691fb640290555aef016c0600834abd": "70192f1062c4b0797a6d612fc59036e4",
 ".git/objects/4a/eb7ec1a3571d9dbc41f204d3c5863584b554e8": "0d0d482998f6b45f8c23dd5fe8ecdc78",
 ".git/objects/50/6cf471cd9df7ad65ffaf6279de34f7e733014a": "7aaa5ade90223f5033fbc6da76e0ec81",
@@ -70,6 +71,7 @@ const RESOURCES = {
 ".git/objects/b3/227c067f624c33169e9f9f04f33b58c14b6a8a": "6e52aa1c02dd361dc1767354fbc6c6c4",
 ".git/objects/b7/49bfef07473333cf1dd31e9eed89862a5d52aa": "36b4020dca303986cad10924774fb5dc",
 ".git/objects/b9/b677b9c9e7ddd9a063c2b9532422098545e4b0": "04022e732d843d2ff705c15a928c82d7",
+".git/objects/be/63967298ff1f421c22d00f0187af56412e8244": "3bcc1b24049fe9ab6b4ec8d5f0c1642b",
 ".git/objects/c6/602bc9af642309a4949787e773602ed1c00196": "21a459d1827a20d351a1254aca7b2515",
 ".git/objects/c8/df92b853992397794e13e57140bbab28367e15": "4e587a7e4ba7acfc9ac1796c5c862e78",
 ".git/objects/cc/2ad9c164ebd1a5e969d739379b7ff870ad0f52": "34c3b2314751ca758eb2ba310b5f8d65",
@@ -85,8 +87,9 @@ const RESOURCES = {
 ".git/objects/f5/eaf7eb1511bd9532cebfae70e47524663de109": "50b1229f40423533da8629dc65d38889",
 ".git/objects/fc/3cadfa66e366d3dafa9df44003c491bcf9dc74": "c2c24f7a0ac11c98b4c37718c3fda410",
 ".git/objects/fc/963dfe2292c4e241afb5950e063414d544c093": "8cd8693ced3c797431323a7707d38029",
-".git/refs/heads/master": "34597d6f51aa2b5a9e9bdb218fcddf0d",
-".git/refs/remotes/origin/master": "34597d6f51aa2b5a9e9bdb218fcddf0d",
+".git/objects/fd/0a71318cfff96fdde0d2d61bb2ca818b782bd3": "628069fff36f1fb4d9a1f13e45085387",
+".git/refs/heads/master": "b540f92f33bad4761b937e23688ac52c",
+".git/refs/remotes/origin/master": "b540f92f33bad4761b937e23688ac52c",
 "assets/AssetManifest.json": "2c058aa405b0356bec961f44efbb816c",
 "assets/coffee.png": "da51e6edd4ba44b95f071b8570b500f3",
 "assets/fingerCounter.png": "4d0b02d2aa997331acfa2a274ed5ffe3",
@@ -137,7 +140,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "5a8ddab7b4893786d6e1f08acb66aded",
 "/": "5a8ddab7b4893786d6e1f08acb66aded",
-"main.dart.js": "1321e641fce3609fce4696a6163a9c7c",
+"main.dart.js": "66254c8e12fe5f6d572634db0f5f6b6a",
 "manifest.json": "ca680362568a8c71669303d04ede2597"
 };
 
